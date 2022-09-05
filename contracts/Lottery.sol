@@ -20,7 +20,7 @@ contract Lottery is VRFConsumerBase, Ownable {
     bytes32 public keyHash;
     event RequestedRandomness(bytes32 requestId);
 
-
+//constructor VRF 
     constructor(address _ethUsdPriceFeed, address _vrfCoordinator, address _link, bytes32 _keyHash) 
         VRFConsumerBase(
             _vrfCoordinator,
