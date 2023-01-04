@@ -3,7 +3,7 @@ const mnemonic = "1c49d2330..........................."
 require('dotenv').config()
 
 
-
+//Networks Goerli update
 module.exports = {
   networks: {
     cldev: {
