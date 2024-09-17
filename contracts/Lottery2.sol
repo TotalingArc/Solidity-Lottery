@@ -103,11 +103,14 @@ contract Lottery is VRFConsumerBase, Ownable {
     }
 }
 
-/.
-Removed userProvidedSeed: The randomness request from Chainlink no longer requires a user-provided seed.
-Randomness variable shadowing fixed: Renamed the argument in fulfillRandomness from randomness to _randomness to prevent overwriting the global variable.
-Cost calculation adjustment: Updated getEntranceFee() to properly handle 18 decimals for precision and price.
-Refined comments: Added clarifying comments to explain each function's purpose and logic. ./
+
+//Removed userProvidedSeed: The randomness request from Chainlink no longer requires a user-provided seed.
+
+//Randomness variable shadowing fixed: Renamed the argument in fulfillRandomness from randomness to _randomness to prevent overwriting the global variable.
+
+//Cost calculation adjustment: Updated getEntranceFee() to properly handle 18 decimals for precision and price.
+
+//Refined comments: Added clarifying comments to explain each function's purpose and logic. 
 
 
 
