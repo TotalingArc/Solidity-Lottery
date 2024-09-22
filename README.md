@@ -56,7 +56,7 @@ npm test
 For deploying to the kovan network, Truffle will use `truffle-hdwallet-provider` for your mnemonic and an RPC URL. Set your environment variables `$RPC_URL` and `$MNEMONIC` before running:
 
 ```bash
-npm run migrate:kovan
+npm run migrate:sepolia
 ```
 
 You can also run:
