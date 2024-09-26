@@ -1,3 +1,9 @@
+# Lottery DApp Frontend
+
+This folder contains the frontend code for interacting with the Lottery DApp on the Ethereum blockchain.
+
+## Project Structure
+
 
 ## Requirements
 
