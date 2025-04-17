@@ -59,7 +59,7 @@ contract Lottery is VRFConsumerBase, Ownable {
 
     }
 
-    //Access control functions
+    //Access for control functions
 
     function startLottery() public onlyOwner {
         require(lotteryState == LOTTERY_STATE.CLOSED, "Can't start a new lottery");
